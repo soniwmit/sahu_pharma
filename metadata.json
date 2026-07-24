@@ -1,0 +1,6 @@
+{
+  "name": "Sahu Pharma - Medical Store",
+  "description": "Your Trusted Medical Store in Kurtha, Bihar for Genuine Medicines, Healthcare Products & Easy WhatsApp Orders.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
