@@ -133,14 +133,7 @@ export const Footer: React.FC<FooterProps> = ({ setActiveTab, onOpenWhatsAppModa
           <p className="flex flex-wrap items-center gap-1.5">
             <span>© {new Date().getFullYear()} {BUSINESS_INFO.name} ({BUSINESS_INFO.altName}). All Rights Reserved.</span>
             <span>|</span>
-            <a
-              href="https://main.webmakerit.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-[#0A8F6A] dark:text-emerald-400 hover:underline font-semibold transition-colors"
-            >
-              Developed by WMIT
-            </a>
+            <a href="#" class="wmit-popup-trigger">Developed by WMIT</a>
           </p>
           <div className="flex items-center gap-4">
             <button onClick={() => setModalType('privacy')} className="hover:text-slate-300 transition-colors">
